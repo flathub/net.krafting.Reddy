@@ -31,5 +31,5 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/reddy-gtk
-        tag: '1.0.0'
-        commit: bf19566ae5285418f8baf47b3e7786211c449036
+        tag: '1.1.0'
+        commit: f9b427134177c6d3ff39aa5f11922a5571d9eacf
