@@ -30,6 +30,6 @@ modules:
         url: https://gitlab.com/Krafting/reddy-gtk
         tag: '1.2.0'
         commit: 185e878ebc65521659f1045ecdeaa089c1670f4e
-        x-checker-data: 
+        x-checker-data:
           type: git,
-          tag-pattern: '^([\\d.]+)$'
+          tag-pattern: '^([\d.]+)$'
