@@ -1,6 +1,6 @@
 app-id: net.krafting.Reddy
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '50'
 sdk: org.gnome.Sdk
 command: Reddy.py
 finish-args:
@@ -11,10 +11,10 @@ finish-args:
   - --socket=fallback-x11
 
 modules:
+  - python3-pybind11.json
+  - python3-six.json
   - python3-praw.json
-
   - python3-pythorhead.json
-
   - python3-pyupload.json
 
   - name: Reddy
